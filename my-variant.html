@@ -1,0 +1,375 @@
+<!DOCTYPE html> 
+<html lang="ru"> 
+<head> 
+<title>Sashurina Maria PW3</title> 
+<meta charset="utf-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<style> 
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+body{
+    font-family: "Rubik", sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(8, 32, 73);
+}
+
+.logo { 
+    float: left; 
+    margin: 10px 20px; 
+    height: 80px;
+    width: auto;
+
+} 
+.logo2 { 
+    float: left; 
+    margin-top: 20px;
+    margin-left: 20px; 
+    height: 120px;
+    width: 250px;
+} 
+
+
+header{
+    height: auto;
+    width: 100%;
+    position: fixed;
+    background-color: rgb(23, 67, 134); 
+    box-shadow: 9px 3px 5px 1px rgba(6, 6, 34, 0.295);  
+    top:0;
+    z-index: 1;
+}
+article{
+    padding: 0;
+  margin: 0;
+}
+nav { 
+    justify-content: center; 
+    font-size: 18px;  
+}        
+nav a {  
+    color: white; 
+    text-shadow: 1px 2px #00000087;
+    padding: 5px 30px; 
+    text-decoration: none;  
+    
+} 
+
+.container { 
+    gap: 5px 5px; 
+     
+    display: flex; 
+    flex-wrap: wrap; 
+    padding-top:50px;     
+}
+h2{
+    text-shadow: 1px 2px #00000087;
+    color: white;
+   margin-bottom:20px; 
+   font-size: 35px;
+}
+h3{
+   font-size: 22px;
+   text-shadow: 1px 2px #00000087;
+
+}
+.news {
+            display: flex;
+            flex-wrap: wrap;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 65px;
+            padding-bottom: 10px;
+
+        }
+        .news-preview {
+            width: 100%;
+            padding: 10px; 
+            margin: 10px; 
+            background-color: azure;
+            box-shadow: 9px 3px 5px 1px rgba(6, 6, 34, 0.295);  
+      
+        }
+        
+        .news-thumbnail {
+            width: 400px;
+            height: 250px;
+            
+            float: left;
+            padding-right: 20px;
+        }
+        .news-meta{
+            color: rgb(91, 90, 90);
+            font-size: 23px; 
+        }
+.new{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    margin-top: 100px;  
+}
+@media only screen and (max-width: 1000px) {
+    .uss {
+          display: none;
+        
+        }   
+} 
+
+.text{
+    font-size: 20px;
+    color:black;  
+     
+}  
+.foot{
+    padding-top: 35px;
+    margin-right: 20px;
+    margin-left: 570px;
+    text-align: end;
+    font-size: 13px;
+    font-weight: 50;
+    color:rgb(255, 255, 255); 
+}
+footer{
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding: 0;
+    background-color: rgb(6, 54, 125); 
+    min-height: 150px;
+    width: 100%;
+    text-align: right;
+    position: relative;
+    
+} 
+.main{
+float:right;
+height: 46px;
+width: auto;
+padding-top: 11px;
+padding-right: 15px;
+} 
+.tel{
+    width: 100%;
+    height: auto;
+    border-radius: 45px;
+   padding-bottom: 20px;
+   padding-left: 10px;
+   padding-right: 10px;
+}  
+.lines {
+            display: flex;
+            justify-content: center;          
+            margin-top: 0px;
+            gap: 10px 10px; 
+        }
+        .line {
+            width: 20%;
+            height: 2px;
+            background-color: white;
+            box-shadow: 9px 3px 5px 1px rgba(6, 6, 34, 0.295);  
+        }
+        .line.white {
+            background-color: rgba(255, 255, 255, 0.193);
+        }
+        
+footer .button-group {
+            position: absolute;
+            top: -20px;
+            right: 0;
+            margin-right: 20px;
+        }
+        .button-group button {
+            box-shadow: 6px 3px 5px 1px rgba(6, 6, 34, 0.295); 
+            text-shadow: 1px 2px #00000087; 
+            background-color: black; /* red */
+            border: none;
+            padding: 10px 20px;
+            font-size: 17px;
+            color: white;
+            border-radius: 10px;
+        }
+        .button-group button[type="button"] + button {
+            background-color: red; /* blue */
+            margin-left: 20px;
+        }
+.last{
+    box-shadow: 9px 3px 5px 1px rgba(6, 6, 34, 0.295);  
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    } 
+    .text-block {
+   padding-left: 40px;
+   padding-right: 40px;
+   padding-top: 15px;
+   padding-bottom: 260px;
+    width:100%;
+    background-color: rgb(32, 76, 143);
+    color: rgb(255, 255, 255);
+    border-radius: 40px;
+    text-align: left;  
+    font-weight: 100; 
+    font-size: 17px;
+    box-shadow: 9px 3px 5px 1px rgba(6, 6, 34, 0.295);  
+
+} 
+.us{
+    padding: 5px 20px;     
+}  
+.con2 { 
+    gap: 5px 5px; 
+    position: absolute; 
+    padding-top:120px; 
+    padding-left: 145px;
+}   
+.uss{
+    box-shadow: 9px 3px 5px 1px rgba(6, 6, 34, 0.295);  
+    border-radius: 20px;
+    width: 21%;
+    height: auto;
+    margin: 15px;
+} 
+.con1{
+    position: relative;
+    display: inline-block;  
+}
+.t{
+ position: absolute;
+ top: 40px;
+ left: 50px;
+ font-style: bold;
+ font-weight: 500;
+ color: white;
+ font-size: 34px;  
+ text-shadow: 1px 2px #00000087; 
+}
+.tt{
+ position: absolute;
+ bottom: 220px;
+ left: 50px;
+ font-style: bold;
+ font-weight: 500;
+ color: white;
+ font-size: 32px;  
+ text-shadow: 1px 2px #00000087; 
+}
+.ttt{
+ position: absolute;
+ bottom: 190px;
+ left: 50px;
+ font-style: bold;
+ font-weight: 500;
+ color: white;
+ font-size: 32px;  
+ text-shadow: 1px 2px #00000087; 
+}
+.tttt{
+ position: absolute;
+ bottom: 135px;
+ left: 50px;
+ color: white;
+ font-weight: 50;
+ font-size: 14px;  
+ text-shadow: 1px 2px #00000087; 
+}
+.ttttt{
+ position: absolute;
+ bottom: 110px;
+ left: 50px;
+ color: white;
+ font-weight: 50;
+ font-size: 14px;  
+ text-shadow: 1px 2px #00000087; 
+}
+</style> 
+</head> 
+<body> 
+
+<header >    
+    <img class="logo"   src="logo.svg" alt="picture 1"> 
+    <img class="main"   src="fff.png" alt="picture 11">   
+    <nav class="container"> 
+        <a href="#1">О КОМПАНИИ</a> 
+        <a href="#2">КАТАЛОГ</a> 
+        <a href="#3">УСЛУГИ</a> 
+        <a href="#4">НОВОСТИ</a> 
+        <a href="#5">ДОКУМЕНТЫ</a> 
+        <a href="#6">КОНТАКТЫ</a>          
+    </nav>
+</header> 
+
+<article class="new">
+    <div class="con1">
+    <img class="tel" src="tel.png" alt="tel"> 
+    <div class="t">ТЕЛЕКОММУНИКАЦИИ</div>
+    <div class="tt">Новейшее</div>
+    <div class="ttt">оборудование</div>
+    <div class="tttt"> связи от компаний: Nortel/Avaya,</div>
+    <div class="ttttt">Iskratel, Cisco, Натекс, СвязьПрибор.</div>
+</div>
+    <div class="lines">
+        <div class="line"></div>
+        <div class="line white"></div>
+        <div class="line white"></div>
+    </div>
+</article>
+
+<article class="us">
+    <h2>ПРОДУКЦИЯ</h2>
+    <div class="con2">
+        <img class="uss" src="f.png" alt="f" >
+        <img class="uss" src="s.png" alt="f">
+       
+        <img class="uss" src="t.png" alt="f">
+        <img class="uss" src="for.png" alt="f">
+    </div>
+<div class="text-block">
+    <h3>НОВИНКИ СО ВСЕГО МИРА ТОЛЬКО У НАС</h3>
+    <p>Успей пока не поздно</p>    
+</div>
+
+</article>
+
+<article class="news">
+    <h2>НОВОСТИ</h2> 
+    
+    <section class="news-preview">
+        <img class="news-thumbnail"   src="news.png" alt="picture 2">
+     <p class="news-meta">Январь 1, 2022 </p>
+        
+    <p class="text"><b>СЕМИНАР «СИСТЕМЫ УПРАВЛЕНИЯ ОСВЕЩЕНИЕМ. ЭФФЕКТ ОТ ВНЕДРЕНИЯ ЭЛЕМЕНТОВ “УМНОГО ГОРОДА”...</b></p>    
+    </section>
+    
+    <section class="news-preview">
+        <img class="news-thumbnail"   src="news.png" alt="picture 2">
+        <p class="news-meta">Февраль 1, 2023 </p>
+        
+        <p class="text"><b>СЕМИНАР «СИСТЕМЫ УПРАВЛЕНИЯ ОСВЕЩЕНИЕМ. ЭФФЕКТ ОТ ВНЕДРЕНИЯ ЭЛЕМЕНТОВ “УМНОГО ГОРОДА”...</b></p>     </section>
+
+    <section class="news-preview">
+        <img class="news-thumbnail"   src="news.png" alt="picture 2">
+        <p class="news-meta">Март 1, 2024 </p>
+        <p class="text"><b>СЕМИНАР «СИСТЕМЫ УПРАВЛЕНИЯ ОСВЕЩЕНИЕМ. ЭФФЕКТ ОТ ВНЕДРЕНИЯ ЭЛЕМЕНТОВ “УМНОГО ГОРОДА”...</b></p>         
+    </section>   
+</article>
+
+
+<footer>
+    <div class="button-group">
+    <button type="button">Связаться с нами</button>
+        <button type="button">Подписаться</button>
+    </div>
+
+    <img class="logo2"   src="logo.svg" alt="picture 1">
+    <p class="foot">Поставка и сопровождение оборудования связи: Avaya, Iskratel, Cisco, Nortel, Натекс, SAF, Yealink, Связьприбор, СВЯЗЬИНВЕСТ.
+        Приоритет нашей работы - решение Ваших задач.Приоритет нашей работы - решение Ваших задач.Приоритет нашей работы - решение Ваших задач.Приоритет нашей работы - решение Ваших задач. Нам важно, чтобы Вы стали нашим постоянным партнером.</p>
+    </footer>
+    <img class="last" src="foot.png" alt="foot">
+
+
+</body> 
+</html> 
